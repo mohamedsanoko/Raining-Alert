@@ -18,6 +18,7 @@ The main script fetches weather data from the OpenWeatherMap API, checks for rai
 # Customization
   **Locatioin and Forecast Period**: Update MY_LAT and MY_LONG with the desired latitude and       longitude.
     Adjust the cnt parameter in the weather_parameters dictionary to fetch a different number       of forecast entries.
+    
   **Twilio SMS Alert**: Customize the SMS alert message in the 'body' parameter when creating 
     the TWILIO message.
 
